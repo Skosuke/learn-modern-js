@@ -1,0 +1,35 @@
+{
+  "name": "learn-modern",
+  "version": "1.0.0",
+  "description": "created to learn modern js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skosuke/learn-modern-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Skosuke/learn-modern-js/issues"
+  },
+  "homepage": "https://github.com/Skosuke/learn-modern-js#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@vitejs/plugin-basic-ssl": "^2.0.0",
+    "eslint": "^9.26.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-import": "^2.31.0",
+    "prettier": "^3.5.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.1.3"
+  }
+}
